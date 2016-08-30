@@ -1,0 +1,15 @@
+body{
+	background-color: #EEEEEE
+}
+
+.title{
+	max-height: 6em;
+	background-color:#673AB7
+}
+
+.logo{
+	position: relative;
+	top: 1em;
+	left: 1em;
+	max-width: 100px;
+}
