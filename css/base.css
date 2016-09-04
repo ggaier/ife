@@ -3,8 +3,11 @@ body{
 }
 
 .title{
-	max-height: 6em;
-	background-color:#673AB7
+	height: auto;
+	min-height: 90px;
+	background-color:#673AB7;
+	position: fixed;
+	width: 100%;
 }
 
 .logo{
@@ -13,3 +16,20 @@ body{
 	left: 1em;
 	max-width: 100px;
 }
+
+.navigator{
+	direction: horizon;
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+
+.navigator__item{
+	display: inline;
+}
+
+
+
+
+
+
