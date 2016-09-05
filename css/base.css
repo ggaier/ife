@@ -1,35 +1,52 @@
-body{
-	background-color: #EEEEEE
+body {
+    background-color: #EEEEEE;
+    margin: 0px;
 }
 
-.title{
-	height: auto;
-	min-height: 90px;
-	background-color:#673AB7;
-	position: fixed;
-	width: 100%;
+.title {
+    height: auto;
+    min-height: 90px;
+    background-color: #673AB7;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
 }
 
-.logo{
-	position: relative;
-	top: 1em;
-	left: 1em;
-	max-width: 100px;
+.logo {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    max-width: 100px;
 }
 
-.navigator{
-	direction: horizon;
-	position: absolute;
-	top: 1em;
-	right: 1em;
+.navigator {
+    direction: horizon;
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
 
-.navigator__item{
-	display: inline;
+.navigator__item {
+    display: inline;
 }
 
+a:link{
+	color: white;
+}
 
+a:visited{
+	color: red;
+}
 
+a:hover{
+	color: green;
+}
 
+a.active{
+	color: yellow;
+}
 
-
+a{
+	text-decoration: none;
+}
