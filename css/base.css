@@ -6,7 +6,7 @@ body {
 .title {
     height: auto;
     min-height: 90px;
-    background-color: #673AB7;
+    background-color: #03A9F4;
     position: fixed;
     width: 100%;
     left: 0px;
@@ -49,4 +49,14 @@ a.active{
 
 a{
 	text-decoration: none;
+}
+
+.passage{
+	padding: 1em;
+	margin: 1em;
+	background-color:white; 
+	border: 1px solid #9E9E9E;
+}
+.passage--margin{
+	margin-top: 100px;
 }
