@@ -60,3 +60,55 @@ a{
 .passage--margin{
 	margin-top: 100px;
 }
+
+h3{
+	color: #757575;
+}
+
+.image{
+	padding: 1em;
+	border: 1px solid #9E9E9E;
+	width: auto;
+	margin: 1em;
+	display: table;
+}
+
+table{
+	width: 100%;
+	text-align: left;
+}
+
+th{
+	background-color: #424242;
+	color: white;
+}
+
+caption{
+	text-align: left;
+}
+
+tfoot{
+	background-color: #E0E0E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
