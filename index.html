@@ -76,7 +76,7 @@
             <li>排名1</li>
             <li>排名1</li>
         </ol>
-        <table >
+        <table>
             <caption>下面是一个表格</caption>
             <thead>
                 <tr>
@@ -117,13 +117,15 @@
     </div>
     <div class="passage side-bar">
         <h2>这里以后是一个侧栏</h2>
-        <h2>侧栏窗口的标题</h2>
+        <h3>侧栏窗口的标题</h3>
         <p><span>请输入邮箱地址：</span>
             <input type="text" name="email" value="" placeholder="这是一个文本输入框">
+            <span>邮箱地址请按照要求格式输入</span>
         </p>
-        <p class="notice">邮箱地址请按照要求格式输入</p>
         <p> <span>请输入密码：</span>
             <input type="text" name="password" value="" placeholder="这是一个文本输入框">
+        </p>
+        <p>
             <span>请重复输入密码：</span>
             <input type="text" name="password" value="" placeholder="这是一个文本输入框">
         </p>
@@ -135,20 +137,27 @@
             <label for="famale">
                 <input id="famale" type="radio" name="gender" value="女" placeholder="" checked="true"> 女
             </label>
+        </p>
+        <p>
             城市：
             <select name="city">
                 <option value="0">北京</option>
                 <option value="1">上海</option>
                 <option value="2">漯河</option>
             </select>
+        </p>
+        <p>
             <label for="hobby01">
                 <input id="hobby01" type="checkbox" name="hobby" value="01">运动</label>
             <label for="hobby02">
                 <input id="hobby02" type="checkbox" name="hobby" value="">艺术</label>
             <label for="hobby03">
                 <input type="checkbox" name="hobby" value="03">科学</label>
+        </p>
+        <p>
             个人描述：
             <textarea name="personal_description" placeholder="请输入您的个人描述"></textarea>
+            <br/>
             <input type="submit" name="description" value="确认提交">
         </p>
         <p>版权所有@</p>
