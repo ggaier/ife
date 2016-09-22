@@ -100,13 +100,18 @@ tfoot {
     color: white;
 }
 
-label {
-    display: inline;
+.description{
+	font-size: 14px;
+    margin:15px 0;
+}
+
+.description--tag{
+	float:left;
+    text-align:left;
 }
 
 .description__textarea {
     overflow: hidden;
-    padding: 1em;
 }
 
 textarea {
