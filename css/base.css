@@ -31,84 +31,85 @@ body {
     display: inline;
 }
 
-a:link{
-	color: white;
+a:link {
+    color: white;
 }
 
-a:visited{
-	color: red;
+a:visited {
+    color: red;
 }
 
-a:hover{
-	color: green;
+a:hover {
+    color: green;
 }
 
-a.active{
-	color: yellow;
+a.active {
+    color: yellow;
 }
 
-a{
-	text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-.passage{
-	padding: 1em;
-	margin: 1em;
-	background-color:white; 
-	border: 1px solid #9E9E9E;
-}
-.passage--margin{
-	margin-top: 100px;
+.passage {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border: 1px solid #9E9E9E;
 }
 
-h3{
-	color: #757575;
+.passage--margin {
+    margin-top: 100px;
 }
 
-.image{
-	padding: 1em;
-	border: 1px solid #9E9E9E;
-	width: auto;
-	margin: 1em;
-	display: table;
+h3 {
+    color: #757575;
 }
 
-table{
-	width: 100%;
-	text-align: left;
+.image {
+    padding: 1em;
+    border: 1px solid #9E9E9E;
+    width: auto;
+    margin: 1em;
+    display: table;
 }
 
-th{
-	background-color: #424242;
-	color: white;
+table {
+    width: 100%;
+    text-align: left;
 }
 
-caption{
-	text-align: left;
+th {
+    background-color: #424242;
+    color: white;
 }
 
-tfoot{
-	background-color: #E0E0E0;
+caption {
+    text-align: left;
 }
 
+tfoot {
+    background-color: #E0E0E0;
+}
 
+.button {
+    display: block;
+    width: 100%;
+    min-height: 3em;
+    background-color: #03A9F4;
+    color: white;
+}
 
+label {
+    display: inline;
+}
 
+.description__textarea {
+    overflow: hidden;
+    padding: 1em;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+textarea {
+    width: 100%;
+    height: 300px;
+}
