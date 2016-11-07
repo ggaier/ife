@@ -5,11 +5,17 @@ html * {
 }
 
 .container{
-	width: 100%;
-	height: 100%;
+	position: absolute;
+	margin: 10px;
+	border: 1px solid #aaaaaa;
+	overflow: hidden;
+	width: 70%;
+	height: 70%;
 }
 
 .center{
+	/*The absolutely positioned element is positioned relative to 
+	nearest positioned ancestor(non-static) */
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -19,3 +25,25 @@ html * {
 	width: 400px;
 	height: 200px;
 }
+
+.left-top{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.right-bottom{
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	transform: translate(-100%,-100%);
+}
+
+
+
+
+
+
+
+
+
