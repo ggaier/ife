@@ -61,6 +61,7 @@ a {
     margin: 1em;
     background-color: white;
     border: 1px solid #9E9E9E;
+    overflow: auto;
 }
 
 h3 {
@@ -138,6 +139,10 @@ textarea {
     float: left;
     max-width: 70%;
     overflow: auto;
+}
+
+.image{
+    float: left;
 }
 
 footer{
