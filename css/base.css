@@ -121,9 +121,9 @@ textarea {
 }
 
 .side-bar{
-    float: right;
-    width: 300px;
     background-color: white;
+    max-width: 400px;
+    width: auto;
     border: 1px solid #eee;
     margin: 20px;
     overflow: scroll;
