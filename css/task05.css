@@ -29,10 +29,6 @@ body {
 }
 
 .header-date {
-    display: table-cell;
-    vertical-align: bottom;
-    height: auto;
-    width: auto;
     position: absolute;
     right: 0px;
     font-size: small;
