@@ -38,6 +38,7 @@ body {
 
 .article-top {
 	padding: 20px 0px;
+	overflow: auto;
 }
 
 .article-top--left {
@@ -74,8 +75,27 @@ body {
 	background-color: rgba(224,173,173,0.4);
 }
 
+.article-top--row-3{
+	margin-top: 20px;
+}
 
+.article-top--row-item{
+	width: calc((100%)/3);
+	height: auto;
+	float: left;
+}
 
+.text-color--green{
+	color: rgb(74,137,93);
+}
+
+.text-color--yellow{
+	color: rgb(207,147,79);
+}
+
+.text-color--red{
+	color: rgb(203,118,128);
+}
 
 
 
