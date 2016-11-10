@@ -80,9 +80,10 @@ body {
 }
 
 .article-top--row-item{
-	width: calc((100%)/3);
+	width: calc(581px/3);
 	height: auto;
 	float: left;
+	margin-right: 20px;
 	word-wrap: break-word;
 }
 
