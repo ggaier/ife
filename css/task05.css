@@ -83,6 +83,7 @@ body {
 	width: calc((100%)/3);
 	height: auto;
 	float: left;
+	word-wrap: break-word;
 }
 
 .text-color--green{
