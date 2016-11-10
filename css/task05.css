@@ -35,3 +35,47 @@ body {
     color: rgb(207, 82, 82);
     transform: translateY(-100%);
 }
+
+.article-top {
+	padding: 20px 0px;
+}
+
+.article-top--left {
+    width: 641px;
+    float: left;
+    position: relative;
+}
+
+.article-top--right {
+    width: 203px;
+    float: right;
+}
+
+.image--size1{
+	width: 641px;
+	height: 301px;
+}
+
+.layer{
+	position: absolute;
+	width: 191px;
+	height: 301px;
+}
+
+.layer--left{
+	left: 0px;
+	top: 0px;
+	background-color: rgba(144,182,150,0.4);
+}
+
+.layer--right{
+	right: 0px;
+	top: 0px;
+	background-color: rgba(224,173,173,0.4);
+}
+
+
+
+
+
+
