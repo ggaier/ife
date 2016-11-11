@@ -17,6 +17,10 @@ body {
     position: relative;
 }
 
+.container{
+	width: 892px;
+}
+
 .logo {
     width: 110px;
     height: 61px;
@@ -99,5 +103,7 @@ body {
 	color: rgb(203,118,128);
 }
 
-
+.divider--red{
+	border-color: rgb(193,110,127);
+}
 
