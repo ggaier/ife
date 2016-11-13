@@ -120,6 +120,12 @@ body {
 	font-size: 5em;
 }
 
+.aside-number--italic{
+	font-size: 5em;
+	font-style: italic;
+	color: rgb(106,175,96);
+}
+
 .aside-number2{
 	font-size: 0.2em;
 	color: rgb(193,110,127);
