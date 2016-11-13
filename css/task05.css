@@ -54,6 +54,8 @@ body {
 .article-top--right {
     width: 203px;
     float: right;
+    overflow: auto;
+    word-wrap: break-word;
 }
 
 .image--size1{
@@ -105,5 +107,21 @@ body {
 
 .divider--red{
 	border-color: rgb(193,110,127);
+}
+
+.aside-title{
+	text-decoration: underline;
+	font-size: xx-large;
+}
+
+
+.aside-number{
+	color: rgb(106,175,96);
+	font-size: 5em;
+}
+
+.aside-number2{
+	font-size: 0.2em;
+	color: rgb(193,110,127);
 }
 
