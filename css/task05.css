@@ -126,8 +126,12 @@ body {
 	color: rgb(106,175,96);
 }
 
-.aside-number2{
+.aside-number--multiline{
 	font-size: 0.2em;
 	color: rgb(193,110,127);
+}
+
+.font--large{
+	font-size: 2em;
 }
 
