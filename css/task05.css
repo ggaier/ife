@@ -161,12 +161,16 @@ body {
 	font-size: 2em;
 }
 
-.aside-bottom-article{
-	
-}
-
 .aside-bottom-article--paragraph{
 	text-indent: 2em;
+}
+
+.aside-bottom-article--image{
+	width: 100px;
+	align: right;
+	height: 250px;
+	margin-top: 3em;
+	float: right;
 }
 
 .aside-bottom-article::first-letter{
