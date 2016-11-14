@@ -45,6 +45,11 @@ body {
 	overflow: auto;
 }
 
+.article-bottom{
+	padding: 20px 0px;
+	overflow: auto;
+}
+
 .article-top--left {
     width: 641px;
     float: left;
@@ -109,6 +114,10 @@ body {
 	border-color: rgb(193,110,127);
 }
 
+.divider--blue{
+	border-color: rgb(16,53,83);
+}
+
 .aside-title{
 	text-decoration: underline;
 	font-size: xx-large;
@@ -129,9 +138,52 @@ body {
 .aside-number--multiline{
 	font-size: 0.2em;
 	color: rgb(193,110,127);
+	font-style: normal;
+	vertical-align: top;
 }
 
 .font--large{
+	font-size: 3em;
+}
+
+.aside-bottom-item{
+	width: 50%;
+	float: left;
+}
+
+.aside-bottom-item--accent{
+	color: rgb(245,222,35);
 	font-size: 2em;
 }
+
+.aside-bottom-item h1{
+	color: rgb(16,53,83);
+	font-size: 2em;
+}
+
+.aside-bottom-article{
+	
+}
+
+.aside-bottom-article--paragraph{
+	text-indent: 2em;
+}
+
+.aside-bottom-article::first-letter{
+	font-size: 3em;
+	color: rgb(245,222,35);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
