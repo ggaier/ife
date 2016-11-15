@@ -17,8 +17,8 @@ body {
     position: relative;
 }
 
-.container{
-	width: 892px;
+.container {
+    width: 892px;
 }
 
 .logo {
@@ -41,13 +41,13 @@ body {
 }
 
 .article-top {
-	padding: 20px 0px;
-	overflow: auto;
+    padding: 20px 0px;
+    overflow: auto;
 }
 
-.article-bottom{
-	padding: 20px 0px;
-	overflow: auto;
+.article-bottom {
+    padding: 20px 0px;
+    overflow: auto;
 }
 
 .article-top--left {
@@ -63,125 +63,144 @@ body {
     word-wrap: break-word;
 }
 
-.image--size1{
-	width: 641px;
-	height: 301px;
+.image--size1 {
+    width: 641px;
+    height: 301px;
 }
 
-.layer{
-	position: absolute;
-	width: 191px;
-	height: 301px;
+.layer {
+    position: absolute;
+    width: 191px;
+    height: 301px;
 }
 
-.layer--left{
-	left: 0px;
-	top: 0px;
-	background-color: rgba(144,182,150,0.4);
+.layer--left {
+    left: 0px;
+    top: 0px;
+    background-color: rgba(144, 182, 150, 0.4);
 }
 
-.layer--right{
-	right: 0px;
-	top: 0px;
-	background-color: rgba(224,173,173,0.4);
+.layer--right {
+    right: 0px;
+    top: 0px;
+    background-color: rgba(224, 173, 173, 0.4);
 }
 
-.article-top--row-3{
-	margin-top: 20px;
+.layer2 {
+    position: relative;
+    width: 458px;
+    height: 275px;
 }
 
-.article-top--row-item{
-	width: calc(581px/3);
-	height: auto;
-	float: left;
-	margin-right: 20px;
-	word-wrap: break-word;
+.layer2--bottom {
+    bottom: 0px;
+    height: 61px;
+    width: 100%;
+    background-color: rgba(144, 142, 142, 0.4);
+    position: absolute;
 }
 
-.text-color--green{
-	color: rgb(74,137,93);
+.layer2 img{
+	width: 100%;
+	height: 100%;
 }
 
-.text-color--yellow{
-	color: rgb(207,147,79);
+.article-top--row-3 {
+    margin-top: 20px;
 }
 
-.text-color--red{
-	color: rgb(203,118,128);
+.article-top--row-item {
+    width: calc(581px/3);
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    word-wrap: break-word;
 }
 
-.divider--red{
-	border-color: rgb(193,110,127);
+.text-color--green {
+    color: rgb(74, 137, 93);
 }
 
-.divider--blue{
-	border-color: rgb(16,53,83);
+.text-color--yellow {
+    color: rgb(207, 147, 79);
 }
 
-.aside-title{
-	text-decoration: underline;
-	font-size: xx-large;
+.text-color--red {
+    color: rgb(203, 118, 128);
 }
 
-
-.aside-number{
-	color: rgb(106,175,96);
-	font-size: 5em;
+.divider--red {
+    border-color: rgb(193, 110, 127);
 }
 
-.aside-number--italic{
-	font-size: 5em;
-	font-style: italic;
-	color: rgb(106,175,96);
+.divider--blue {
+    border-color: rgb(16, 53, 83);
 }
 
-.aside-number--multiline{
-	font-size: 0.2em;
-	color: rgb(193,110,127);
-	font-style: normal;
-	vertical-align: top;
+.aside-title {
+    text-decoration: underline;
+    font-size: xx-large;
 }
 
-.font--large{
-	font-size: 3em;
+.aside-number {
+    color: rgb(106, 175, 96);
+    font-size: 5em;
 }
 
-.aside-bottom-item{
-	width: 50%;
-	float: left;
+.aside-number--italic {
+    font-size: 5em;
+    font-style: italic;
+    color: rgb(106, 175, 96);
 }
 
-.aside-bottom-item--accent{
-	color: rgb(245,222,35);
+.aside-number--multiline {
+    font-size: 0.2em;
+    color: rgb(193, 110, 127);
+    font-style: normal;
+    vertical-align: top;
+}
+
+.font--large {
+    font-size: 3em;
+}
+
+.aside-bottom-item {
+    width: 47%;
+    float: left;
+    margin-right: 3%;
+}
+
+.aside-bottom-item--accent {
+    color: rgb(245, 222, 35);
+    font-size: 2em;
+}
+
+.aside-bottom-item h1 {
+    color: rgb(16, 53, 83);
+    font-size: 2em;
+}
+
+.aside-bottom-article--paragraph {
+    text-indent: 2em;
+}
+
+.aside-bottom-article--image {
+    width: 100px;
+    align: right;
+    height: 250px;
+    margin-top: 3em;
+    float: right;
+}
+
+.aside-bottom-article::first-letter {
+    font-size: 3em;
+    color: rgb(245, 222, 35);
+}
+
+.image-layer--title{
+	color: white;
 	font-size: 2em;
 }
-
-.aside-bottom-item h1{
-	color: rgb(16,53,83);
-	font-size: 2em;
-}
-
-.aside-bottom-article--paragraph{
-	text-indent: 2em;
-}
-
-.aside-bottom-article--image{
-	width: 100px;
-	align: right;
-	height: 250px;
-	margin-top: 3em;
-	float: right;
-}
-
-.aside-bottom-article::first-letter{
-	font-size: 3em;
-	color: rgb(245,222,35);
-}
-
-
-
-
-
 
 
 
