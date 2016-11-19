@@ -53,6 +53,14 @@ html *{
 	display: inline;
 }
 
+.nav--item a {
+	color: gray;
+}
+
+.nav--item a:hover{
+	color: rgb(228,69,64);
+}
+
 
 
 
