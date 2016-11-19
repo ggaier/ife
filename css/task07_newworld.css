@@ -1,3 +1,91 @@
 html *{
-	
+	font-family: arial,sans-serif;
+	padding: 0px;
+	margin: 0px;
 }
+
+.header{
+	padding: 0px 50px;
+	height: 50px;
+	position: relative;
+	/* display: inline-block; */
+}
+
+.logo-container{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.logo-container-name{
+	font-size: medium;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.logo-container-image{
+	vertical-align: middle;
+}
+
+.header--nav{
+	position: absolute;
+	right: 0px;
+}
+
+.nav{
+	list-style: none;
+}
+
+.nav--item{
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
