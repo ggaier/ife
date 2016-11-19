@@ -28,9 +28,22 @@ html *{
 }
 
 .header--nav{
+	margin-right: 50px;
+}
+
+.position{
+}
+
+.position--right{
 	position: absolute;
 	right: 0px;
 }
+
+.position--vertical-align{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 
 .nav{
 	list-style: none;
