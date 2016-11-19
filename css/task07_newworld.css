@@ -61,6 +61,14 @@ html *{
 	color: rgb(228,69,64);
 }
 
+.landing-row{
+	width: 100vw;
+	height: 100vh;
+}
+
+.landing-row-image-bg{
+	background-image: url(../img/bg_section_1.png);
+}
 
 
 
