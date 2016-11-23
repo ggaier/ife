@@ -69,8 +69,22 @@ html *{
 	height: 100vh;
 }
 
+.landing-row--wrapped{
+	height: auto;
+}
+
 .landing-row-image-bg{
 	background-image: url(../img/bg_section_1.png);
+}
+
+.landing-row__item{
+	min-height: 300px;
+	background-color: white;
+	float: left;
+}
+
+.landing-row__item--quarter{
+	width: 25%;
 }
 
 .entry{
