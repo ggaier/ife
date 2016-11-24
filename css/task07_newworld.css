@@ -128,10 +128,20 @@ html * {
 
 .text--center-justify{
 	display: block;
-	margin-top: 100px;
 	text-align: center;
 }
 
+.border--right{
+	border-right: 2px solid black;
+}
+
+.margin--top1{
+	margin-top: 100px;
+}
+
+.feature__intro{
+	width:calc(100% - 2px);
+}
 
 
 
