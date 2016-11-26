@@ -1,0 +1,23 @@
+{
+  "name": "package_dependencies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggaier/ife.git"
+  },
+  "author": "ggaier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggaier/ife/issues"
+  },
+  "homepage": "https://github.com/ggaier/ife#readme"
+}
