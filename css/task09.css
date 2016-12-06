@@ -1,3 +1,36 @@
 .navbar-default-bg{
 	background-color: rgb(27,115,175);
 }
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.container--nopadding{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.sidebar--left{
+	background-color: rgb(34,37,47);
+	min-height: 1920px;
+}
+
+.sidebar--right{
+	background-color: rgb(232,232,232);
+	min-height: 1920px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
